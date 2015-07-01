@@ -2,6 +2,11 @@ body {
 	background-color: #ededed;
 }
 
+.red {
+  color: #ff0000;
+  font-weight: bold;
+}
+
 .page-title {
 	/*position: fixed;
 	bottom: 2em;
@@ -137,4 +142,15 @@ body {
   background: yellow;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffdd00), to(yellow));
   background: -moz-linear-gradient(top,  #ffdd00,  yellow);
+}
+
+@media print {
+  .last {
+    display: none;
+  }
+
+  .red {
+    color: #000;
+  }
+
 }
