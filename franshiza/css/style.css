@@ -855,7 +855,9 @@ body {
 
 .obzor h2,
 .howto h2,
-.offer h2 {
+.offer h2,
+.whois h2,
+.qa h2 {
 	font-family: ArvoBold, sans-serif;
 	font-size: 29px;
 	text-align: center;
@@ -882,10 +884,409 @@ body {
 	margin: 50px auto 0;
 }
 
+.offer {
+	padding-bottom: 60px;
+}
+
+.offer h2 {
+	padding-bottom: 50px;
+}
+
+.offer h3 {
+	font-family: OpenSansBold, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	padding: 40px 0;
+}
+
+.offer p {
+	font-family: OpenSansRegular, sans-serif;
+	font-size: 16px;
+	padding-bottom: 15px;
+	line-height: 24px;	
+}
+
+.offer p.center {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.offer p span {
+	font-family: OpenSansBold, sans-serif;
+}
+
+.offer1 {
+	background: url(../images/bg_offer.png) no-repeat;
+	width: 940px;
+	height: 424px;
+	margin: 0 auto 15px;
+}
+
+.offer .offer1 h3 {
+	color: #f37021;
+	font-size: #f37021;
+	font-family: ArvoBold, sans-serif;
+	font-size: 18px;
+	text-align: left;
+	padding-left: 30px;
+}
+
+.offer1 .offer1-left {
+	margin-left: 10px;
+}
+
+.offer .sprite {
+    background-image: url(../images/offer.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.offer .sprite-1 {
+    width: 91px;
+    height: 91px;
+    background-position: -5px -5px;
+}
+
+.offer .sprite-2 {
+    width: 91px;
+    height: 91px;
+    background-position: -106px -5px;
+}
+
+.offer .sprite-3 {
+    width: 90px;
+    height: 91px;
+    background-position: -5px -106px;
+}
+
+.offer1 .offer1-big p {
+	font-size: 15px;
+	line-height: 20px;
+	padding-bottom: 5px;
+}
+
+.offer1 .offer1-big p span {
+	font-family: OpenSansBold, sans-serif;
+}
+
+.offer1-right {
+	float: left;
+	margin-top: -8px;
+}
+
+.offer .number {
+    background-image: url(../images/offer_num.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.numer {
+	position: relative;
+    float: right;
+    margin-top: -70px;
+    margin-right: 40px;
+}
+
+.offer1 .number-1 {
+    width: 63px;
+    height: 64px;
+    background-position: -5px -5px;
+}
+
+.number-2 {
+    width: 63px;
+    height: 64px;
+    background-position: -78px -5px;
+}
+
+.number-3 {
+    width: 63px;
+    height: 64px;
+    background-position: -5px -79px;
+}
+
+.offer .tg  {border-collapse:collapse;border-spacing:0;width:900px;margin: 0 auto 10px;}
+.offer .tg td{font-family:OpenSansRegular, sans-serif;font-size:11px;padding:10px 5px;overflow:hidden;word-break:normal;text-align: center;}
+.offer .tg th{font-family:OpenSansRegular, sans-serif;font-size:11px;padding:10px 5px;overflow:hidden;word-break:normal;color: #fff;vertical-align:middle;}
+.offer .tg .tg-5tyl{background-color:#f36c23;vertical-align:middle;}
+.offer .tg .tg-n4yg{background-color:#f6f6f6;vertical-align:middle;}
+.offer .tg .tg-cxkv{background-color:#ffffff}
+.offer .tg .tg-0qjz{background-color:#f6f6f6}
+.offer .tg .tg-lk3e{background-color:#f36c23}
+.offer .tg .tg-5yxd{background-color:#f47922;width:55px;}
+.offer .tg .tg-drqg{background-color:#f47922;vertical-align:middle;}
+.offer .tg .tg-3we0{background-color:#ffffff;vertical-align:middle;}
+
+.offer h4 {
+	font-family: OpenSansBold, sans-serif;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+.offer p {
+	padding-left: 30px;
+}
+
+.whois {
+	background: url(../images/bg_what.jpg) center top no-repeat;
+	height: 1098px;
+}
+
+.valeev {
+	background: url(../images/valeev.png) center top no-repeat;
+	height: 453px;
+	margin-top: 45px;
+}
+
+.valeev-info {
+	width: 615px;
+	padding-top: 120px;
+	padding-left: 320px;
+}
+
+.valeev-info h3 {
+	font-family: ArvoBold, sans-serif;
+	font-size: 20px;
+}
+
+.valeev-info .tg .tg-lmqs1{background-color:#f37021; width: 615px; height: 3px;}
+
+.valeev-info p {
+	font-family: OpenSansRegular, sans-serif;
+	font-size: 16px;
+	padding-bottom: 8px;
+	line-height: 24px;	
+}
+
+.mayorov {
+	background: url(../images/mayorov.png) center top no-repeat;
+	height: 498px;
+	margin-top: 45px;
+}
+
+.mayorov-info {
+	width: 615px;
+	padding-top: 140px;
+}
+
+.mayorov-info h3 {
+	font-family: ArvoBold, sans-serif;
+	font-size: 20px;
+}
+
+.mayorov-info .tg .tg-lmqs1{background-color:#f37021; width: 615px; height: 3px;}
+
+.mayorov-info p {
+	font-family: OpenSansRegular, sans-serif;
+	font-size: 16px;
+	padding-bottom: 8px;
+	line-height: 24px;	
+}
+
+.dontwork {
+	background: url(../images/bg_dont.jpg) center top no-repeat;
+	height: 439px;
+}
+
+.dontwork h2 {
+	font-family: ArvoBold, sans-serif;
+	font-size: 29px;
+	color: #fff;
+	text-align: center;
+	padding: 50px 0;
+}
+
+.dontwork h3 {
+	font-family: OpenSansBoldItalic, sans-serif;
+	font-size: 17px;
+	color: #f37021;
+	padding: 30px 0 0 50px;
+}
+
+.dontwork ul {
+	font-family: OpenSansRegular, sans-serif;
+	font-size: 16px;
+	color: #fff;
+	line-height: 24px;
+	padding: 0;
+	margin: 0;
+}
+
+.dontwork li.b1 {
+	background-image: url(../images/bullet1.png);
+  background-repeat: no-repeat;
+  padding-top: 9px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+}
+
+.dontwork li.b2 {
+	background-image: url(../images/bullet2.png);
+  background-repeat: no-repeat;
+  padding-top: 9px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+}
+
+.dontwork li.b3 {
+	background-image: url(../images/bullet3.png);
+  background-repeat: no-repeat;
+  padding-top: 9px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+}
+
+.dontwork li.b4 {
+	background-image: url(../images/bullet4.png);
+  background-repeat: no-repeat;
+  padding-top: 9px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+}
+
+.howstart {
+
+}
+
+.howstart h2 {
+	font-family: ArvoBold, sans-serif;
+	font-size: 29px;
+	text-align: center;
+	padding-top: 50px;
+	line-height: 36px;
+}
+
+.howstart h3 {
+	font-family: OpenSansRegular, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	padding-bottom: 45px;
+}
+
+.howstart h3 span {
+	font-family: OpenSansBold, sans-serif;
+}
+
+.howstart .vector {
+	background: url(../images/bg_vector.jpg) no-repeat;
+	width: 731px;
+	height: 60px;
+	margin: 40px auto 10px;
+}
+
+.howstart .vector {
+	color: #fff;
+	font-family: OpenSansRegular, sans-serif;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 27px;
+}
+
+.howstart .vector span {
+	font-family: OpenSansBold, sans-serif;
+	font-size: 35px;
+}
+
+.howstart p {
+	font-family: OpenSansRegular, sans-serif;
+	font-size: 16px;
+	padding-bottom: 15px;
+	line-height: 24px;
+}
+
+.howstart h4 {
+	font-family: Arvo, sans-serif;
+	font-size: 29px;
+	text-align: center;
+	padding: 34px 0;
+}
+
+.qa {
+	background-color: #f1f1f1;
+}
+
+.source {
+	margin: 50px auto 0;
+	padding: 40px;
+}
+
+.view-source {
+	padding-bottom: 7px;
+}
+
+.view-source .bullett {
+	background: url(../images/down.png) no-repeat;
+	width: 13px;
+	height: 13px;
+}
+
+.view-source a {
+	font-family: OpenSansBold, sans-serif;
+	font-size: 18px;
+	color: #f37021;
+	text-decoration: underline;
+}
+
+.hide {
+	font-family: OpenSansRegular, sans-serif;
+	font-size: 14px;
+	padding-top: 7px;
+	padding-bottom: 8px;
+}
+
+.prefooter {
+	background: url(../images/bg_footer.jpg) center top no-repeat;
+	height: 109px;
+	padding-top: 43px;
+}
+
+.prefooter .btn {
+	background: url(../images/btn.png) no-repeat;
+	background-position: 0px 0px;
+	width: 379px;
+	height: 71px;
+	display: block;
+	margin: 0 auto;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+
+.prefooter .btn:hover {
+	background-position: 0px -71px;
+}
+
 
 /* Footer
 -----------------------------------------------------------------------------*/
-.footer {
-	height: 100px;
-	background: #BFF08E;
+#footer {
+	padding-top: 30px;
+}
+
+#footer:after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+#footer-left {
+    float: left;
+    font-size: 12px;
+    font-family: OpenSansRegular, sans-serif;
+    margin-bottom: 5px;
+}
+
+#footer-left p {
+    font-size: 12px;
+    font-family: OpenSansRegular, sans-serif;
+    margin-bottom: 5px;
+}
+
+#footer-right {
+    float: right;
+    width: 144px;
+    height: 34px;
 }
