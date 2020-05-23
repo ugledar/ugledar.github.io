@@ -1,48 +1,374 @@
-<!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Угледар</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+<head>
+  <title>График выхода дежурных сисадминов</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Yuri Nikolenko</h1>
-						<!-- <p>Security Chief &nbsp;&bull;&nbsp; Cyborg &nbsp;&bull;&nbsp; Never asked for this</p> -->
-						<p>Front-End Developer</p>
-						<nav>
-							<ul>
-								<li><a href="http://twitter.com/DeltaRoot" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="http://fb.com/ynikolenko" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="http://vk.com/ynikolenko" class="icon fa-vk"><span class="label">Dribbble</span></a></li>
-								<li><a href="http://github.com/ynikolenko" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="mailto:yurka@yandex.ru" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+  <span class="page-title">
+    <h3>Апрель, 2020.</h3>
+  </span>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<!-- <span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span> -->
-					</footer>
+  <table class="simple-little-table" cellspacing="0">
+    <tbody>
+      <tr>
+        <th>&nbsp;</th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th class="red">4</th>
+        <th class="red">5</th>
+        <th>6</th>
+        <th>7</th>
+        <th>8</th>
+        <th>9</th>
+        <th>10</th>
+        <th class="red">11</th>
+        <th class="red">12</th>
+        <th>13</th>
+        <th>14</th>
+        <th>15</th>
+        <th>16</th>
+        <th>17</th>
+        <th class="red">18</th>
+        <th class="red">19</th>
+        <th class="red">20</th>
+        <th>21</th>
+        <th>22</th>
+        <th>23</th>
+        <th>24</th>
+        <th class="red">25</th>
+        <th class="red">26</th>
+        <th>27</th>
+        <th>28</th>
+        <th>29</th>
+        <th>30</th>
+      </tr>
 
-			</div>
-		</div>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+      <tr class="even">
+        <td>Николенко Ю.В.</td>
+        <td>3</td>
+        <td>3</td>
+        <td>*</td>
+        <td>&#x2154;</td>
+        <td>*</td>
+        <td>*</td>
+        <td>3</td>
+        <td>3</td>
+        <td>*</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>*</td>
+        <td>&#x2154;</td>
+        <td>&#x2154;</td>
+        <td>*</td>
+        <td>*</td>
+        <td>3</td>
+        <td>&#x2154;</td>
+        <td>&#x2154;</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>*</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>*</td>
+      </tr>
+
+      <tr>
+        <td>Кроленко А.А.</td>
+        <td class="happy"></td>
+        <td class="happy"></td>
+        <td class="happy"></td>
+        <td class="happy"></td>
+        <td class="happy">О</td>
+        <td class="happy">Т</td>
+        <td class="happy">П</td>
+        <td class="happy">У</td>
+        <td class="happy">С</td>
+        <td class="happy">К</td>
+        <td class="happy"></td>
+        <td class="happy"></td>
+        <td class="happy"></td>
+        <td>*</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+        <td>&#x2154;</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>*</td>
+        <td>3</td>
+        <td>3</td>
+      </tr>
+
+      <tr class="even">
+        <td>Могиланов А.В.</td>
+        <td>*</td>
+        <td>&#x2154;</td>
+        <td>&#x2154;</td>
+        <td>&#x2154;</td>
+        <td>&#x2154;</td>
+        <td>&#x2154;</td>
+        <td>*</td>
+        <td>*</td>
+        <td>3</td>
+        <td>&#x2154;</td>
+        <td>&#x2154;</td>
+        <td>&#x2154;</td>
+        <td>&#x2154;</td>
+        <td>*</td>
+        <td>*</td>
+        <td>&#x2154;</td>
+        <td>&#x2154;</td>
+        <td>1</td>
+        <td>*</td>
+        <td>1</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>*</td>
+        <td>1</td>
+        <td>2</td>
+        <td>*</td>
+        <td>3</td>
+        <td>*</td>
+        <td>2</td>
+      </tr>
+
+      <tr>
+        <td>Лазебных В.А.</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>*</td>
+        <td>&#x2154;</td>
+        <td>&#x2154;</td>
+        <td>*</td>
+        <td>1</td>
+        <td>*</td>
+        <td>&#x2154;</td>
+        <td>&#x2154;</td>
+        <td>&#x2154;</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+        <td>&#x2154;</td>
+        <td class="happy"></td>
+        <td class="happy">п</td>
+        <td class="happy">о</td>
+        <td class="happy"></td>
+        <td class="happy">2</td>
+        <td class="happy">3</td>
+        <td class="happy">.</td>
+        <td class="happy">0</td>
+        <td class="happy">5</td>
+        <td class="happy"></td>
+        <td class="happy"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="page-title">
+    <h3>Май, 2020.</h3>
+  </span>
+
+  <table class="simple-little-table" cellspacing="0">
+    <tbody>
+      <tr>
+        <th>&nbsp;</th>
+        <th class="red">1</th>
+        <th class="red">2</th>
+        <th class="red">3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>7</th>
+        <th>8</th>
+        <th class="red">9</th>
+        <th class="red">10</th>
+        <th class="red">11</th>
+        <th>12</th>
+        <th>13</th>
+        <th>14</th>
+        <th>15</th>
+        <th class="red">16</th>
+        <th class="red">17</th>
+        <th>18</th>
+        <th>19</th>
+        <th>20</th>
+        <th>21</th>
+        <th>22</th>
+        <th class="red">23</th>
+        <th class="red">24</th>
+        <th>25</th>
+        <th>26</th>
+        <th>27</th>
+        <th>28</th>
+        <th>29</th>
+        <th class="red">30</th>
+        <th class="red">31</th>
+      </tr>
+
+      <tr class="even">
+        <td>Николенко Ю.В.</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>*</td>
+        <td>*</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>*</td>
+        <td>*</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+        <td>3</td>
+        <td>3</td>
+        <td>*</td>
+        <td>*</td>
+      </tr>
+
+      <tr>
+        <td>Кроленко А.А.</td>
+        <td>*</td>
+        <td>*</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>*</td>
+        <td>*</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>*</td>
+        <td>*</td>
+        <td>2</td>
+        <td>2</td>
+      </tr>
+
+      <tr class="even">
+        <td>Могиланов А.В.</td>
+        <td>2</td>
+        <td>2</td>
+        <td>*</td>
+        <td>*</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>*</td>
+        <td>*</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>*</td>
+        <td>*</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+        <td>2</td>
+        <td>2</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+      </tr>
+
+      <tr>
+        <td>Лазебных В.А.</td>
+        <td class="happy"></td>
+        <td class="happy"></td>
+        <td class="happy"></td>
+        <td class="happy"></td>
+        <td class="happy">о</td>
+        <td class="happy">т</td>
+        <td class="happy">п</td>
+        <td class="happy">у</td>
+        <td class="happy">с</td>
+        <td class="happy">к</td>
+        <td class="happy"></td>
+        <td class="happy">п</td>
+        <td class="happy">о</td>
+        <td class="happy"></td>
+        <td class="happy">2</td>
+        <td class="happy">3</td>
+        <td class="happy">.</td>
+        <td class="happy">0</td>
+        <td class="happy">5</td>
+        <td class="happy"></td>
+        <td class="happy"></td>
+        <td class="happy"></td>
+        <td class="happy"></td>
+        <td>1</td>
+        <td>2</td>
+        <td>2</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+        <td>3</td>
+        <td>3</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+</body>
 </html>

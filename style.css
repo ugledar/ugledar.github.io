@@ -2,6 +2,10 @@ body {
 	background-color: #ededed;
 }
 
+div {
+  display: none;
+}
+
 .red {
   color: #ff0000;
   font-weight: bold;
@@ -135,13 +139,20 @@ body {
   text-decoration:underline;
 }
 
-.simple-little-table tr td.happy {
+/*.simple-little-table tr td.happy {
   border: 1px solid #ffdd00;
   text-shadow: none;
 
   background: yellow;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffdd00), to(yellow));
   background: -moz-linear-gradient(top,  #ffdd00,  yellow);
+}*/
+
+.simple-little-table tr td.happy {
+  border: 1px solid #4a76a8;
+  text-shadow: none;
+  background: #5181b8;
+  color: #fff;
 }
 
 @media print {
@@ -152,5 +163,6 @@ body {
   .red {
     color: #000;
   }
-
 }
+
+.cbalink {display: none;}
